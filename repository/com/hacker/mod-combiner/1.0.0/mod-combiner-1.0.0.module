@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.hacker",
+    "module": "mod-combiner",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "mod-combiner-1.0.0.jar",
+          "url": "mod-combiner-1.0.0.jar",
+          "size": 14393,
+          "sha512": "97d4f84b90c0aec7f654f27a39de11396774eba8ffca3cdc30c5423a58ed7e05fd97114ab2cd66a7241c5f9a6e928ca53dfff4a4b88350eb58485b569000cf63",
+          "sha256": "38825b8814b4f5f9e26e5f91d93a4c3b98c640c088d9fd20b0333c9ee174a6c6",
+          "sha1": "c4e59b2e8d4ddafbb67022dac20b03aa00e56581",
+          "md5": "e0fcafd52b74a708e778fe0fe2fbbe53"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.5"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.5"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.5"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "9.5"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mod-combiner-1.0.0.jar",
+          "url": "mod-combiner-1.0.0.jar",
+          "size": 14393,
+          "sha512": "97d4f84b90c0aec7f654f27a39de11396774eba8ffca3cdc30c5423a58ed7e05fd97114ab2cd66a7241c5f9a6e928ca53dfff4a4b88350eb58485b569000cf63",
+          "sha256": "38825b8814b4f5f9e26e5f91d93a4c3b98c640c088d9fd20b0333c9ee174a6c6",
+          "sha1": "c4e59b2e8d4ddafbb67022dac20b03aa00e56581",
+          "md5": "e0fcafd52b74a708e778fe0fe2fbbe53"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mod-combiner-1.0.0-javadoc.jar",
+          "url": "mod-combiner-1.0.0-javadoc.jar",
+          "size": 87571,
+          "sha512": "f029393fbd02f1cc8085596c71661e85e685469b44e1661c2c12bb9f62809991ac6c5c94263419d77a4d3fedffbfa78389860c25f18867cd32b5928928f1e9b8",
+          "sha256": "af81d2d60d373fd886777beb7b726ab020fbf3a5d0621059102f7067d77f8fa0",
+          "sha1": "f2aaf718b9137fb9d084d64eb311fa933d275b96",
+          "md5": "c53f141b17b8a05a2dcf27321d30af0a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mod-combiner-1.0.0-sources.jar",
+          "url": "mod-combiner-1.0.0-sources.jar",
+          "size": 5900,
+          "sha512": "cce1c0530dcb4235bd3551c37152e8d069e5026208dbfbc0cb8c095c397b372ace3382c52eb07a86a36b0712fae2a349fa87d1a21ba8213298eb145bcc159799",
+          "sha256": "42f5f79bd1875548f8ec7a7b0f4b566736c1023e27c61fea0edb7dd58602b5af",
+          "sha1": "632d6d8fafc06fda9fb3708c67dde05a7e9a6ce0",
+          "md5": "d5ffb72f8640a36e9365c30894a84755"
+        }
+      ]
+    }
+  ]
+}
