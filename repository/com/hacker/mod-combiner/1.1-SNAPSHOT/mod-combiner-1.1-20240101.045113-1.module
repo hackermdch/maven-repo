@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.hacker",
+    "module": "mod-combiner",
+    "version": "1.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "mod-combiner-1.1-SNAPSHOT.jar",
+          "url": "mod-combiner-1.1-SNAPSHOT.jar",
+          "size": 14462,
+          "sha512": "833f970bb3e4bfbe6bc6c1230789db07e360ced4ebfc9f3c84ef432d3f56eb5285b1fa3a9dc6494a61ad3e6deb41097b4155954f321f65cbcde7817fa4fdb7c8",
+          "sha256": "f37ae53a5caba7ff2cabb755eee22243bc58c683a752afd4fd455edb6c0b1071",
+          "sha1": "619fe7f9ae7c508f0e87c059b25e09296bf6a99f",
+          "md5": "e8ca66f69213d3c319c4633fc8c19600"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.6"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.6"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.6"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "9.6"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mod-combiner-1.1-SNAPSHOT.jar",
+          "url": "mod-combiner-1.1-SNAPSHOT.jar",
+          "size": 14462,
+          "sha512": "833f970bb3e4bfbe6bc6c1230789db07e360ced4ebfc9f3c84ef432d3f56eb5285b1fa3a9dc6494a61ad3e6deb41097b4155954f321f65cbcde7817fa4fdb7c8",
+          "sha256": "f37ae53a5caba7ff2cabb755eee22243bc58c683a752afd4fd455edb6c0b1071",
+          "sha1": "619fe7f9ae7c508f0e87c059b25e09296bf6a99f",
+          "md5": "e8ca66f69213d3c319c4633fc8c19600"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mod-combiner-1.1-SNAPSHOT-javadoc.jar",
+          "url": "mod-combiner-1.1-SNAPSHOT-javadoc.jar",
+          "size": 87570,
+          "sha512": "184d5a97a7af6e6fa6c91f6cba2d14c0b922a4ad058a997cd712585609f0e585e988fc82509929db01a433f62c4841a6ad18e2ab247f1b7f8cf06f63ae4dbdad",
+          "sha256": "4c2b3cadc5e59668ea9f9d199fb03073efcdc504137945846aa2b5f9e1222182",
+          "sha1": "d4ba61c8e7a39b5abbdd74e407df309d21a90461",
+          "md5": "fd0509b60f7adce94e63e8931aa3485c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mod-combiner-1.1-SNAPSHOT-sources.jar",
+          "url": "mod-combiner-1.1-SNAPSHOT-sources.jar",
+          "size": 5928,
+          "sha512": "746b2fb297721e54c375ea47dca7b123a6bdcb9411fc231fbc758318a6776b31bda5611bb59ab9127d6d6d96363e7ff9dee05a5211bdafae9550a1094f813c5c",
+          "sha256": "d745df59d612ce62bee84edef6d6094d621ac044cd63b49d225f03d9ab3cb179",
+          "sha1": "75f40b4817e87ae9abf78653ae197d37cd813a77",
+          "md5": "1550b7e127ed78839b9c109c34c1fc86"
+        }
+      ]
+    }
+  ]
+}
