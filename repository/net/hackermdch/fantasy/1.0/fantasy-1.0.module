@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.hackermdch",
+    "module": "fantasy",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fantasy-1.0.jar",
+          "url": "fantasy-1.0.jar",
+          "size": 43030,
+          "sha512": "55c8a846c989af628a04d7f53b1e6190d9915490d8b7585e236634e5db710eadbee091a212ec7edb35a259e4e7ed62d0b5de4dd2581c64d9b046c41e34b4067d",
+          "sha256": "9e3f4d90861489a7a3676f89a428334af5ef0f2574a52a2e8f27a9e4c6d6929b",
+          "sha1": "e833953ac50d8e8c056093371be02a88c2ee622a",
+          "md5": "9ce4bce06d4fa905e2c919bbb0fb4fd5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fantasy-1.0.jar",
+          "url": "fantasy-1.0.jar",
+          "size": 43030,
+          "sha512": "55c8a846c989af628a04d7f53b1e6190d9915490d8b7585e236634e5db710eadbee091a212ec7edb35a259e4e7ed62d0b5de4dd2581c64d9b046c41e34b4067d",
+          "sha256": "9e3f4d90861489a7a3676f89a428334af5ef0f2574a52a2e8f27a9e4c6d6929b",
+          "sha1": "e833953ac50d8e8c056093371be02a88c2ee622a",
+          "md5": "9ce4bce06d4fa905e2c919bbb0fb4fd5"
+        }
+      ]
+    }
+  ]
+}
