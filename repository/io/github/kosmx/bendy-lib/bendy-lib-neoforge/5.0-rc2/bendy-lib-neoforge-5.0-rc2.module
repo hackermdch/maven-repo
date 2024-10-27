@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.kosmx.bendy-lib",
+    "module": "bendy-lib-neoforge",
+    "version": "5.0-rc2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "bendy-lib-neoforge-5.0-rc2.jar",
+          "url": "bendy-lib-neoforge-5.0-rc2.jar",
+          "size": 46901,
+          "sha512": "397c4d68598de7aba05d6c792f2c4512788d1404f0ce9168001f97ecb46d17beaad67427198b358d3da077c8da3dae592487588000ec38d06aa2bf84058d80a4",
+          "sha256": "0d9d2824112a87ebf73c9dd91e874f6a385983e4b6542afa2368d8fe9abc17db",
+          "sha1": "88043650990df63310c2a6d7aea48d53c430040b",
+          "md5": "52569e2ba5fc109a73a628688df52b19"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "bendy-lib-neoforge-5.0-rc2.jar",
+          "url": "bendy-lib-neoforge-5.0-rc2.jar",
+          "size": 46901,
+          "sha512": "397c4d68598de7aba05d6c792f2c4512788d1404f0ce9168001f97ecb46d17beaad67427198b358d3da077c8da3dae592487588000ec38d06aa2bf84058d80a4",
+          "sha256": "0d9d2824112a87ebf73c9dd91e874f6a385983e4b6542afa2368d8fe9abc17db",
+          "sha1": "88043650990df63310c2a6d7aea48d53c430040b",
+          "md5": "52569e2ba5fc109a73a628688df52b19"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "bendy-lib-neoforge-5.0-rc2-sources.jar",
+          "url": "bendy-lib-neoforge-5.0-rc2-sources.jar",
+          "size": 27257,
+          "sha512": "874f746269293b6062ffbaa3f9433ed8ce8822eafcbd3630ff28c42ba3b30bbc25a3c7c531ef68960b2ee6830dd5f46ad9b0d36a3e5d9cd746462850f2906b94",
+          "sha256": "34fde25dc53733246161ea35a7dec421942bddb37410b004febc541eb7fbf551",
+          "sha1": "75f3018b167e207bec160b91605c4e3bb44dd667",
+          "md5": "4d78aa38b5494c9dd9f47b3e2ca9d5dc"
+        }
+      ]
+    }
+  ]
+}
