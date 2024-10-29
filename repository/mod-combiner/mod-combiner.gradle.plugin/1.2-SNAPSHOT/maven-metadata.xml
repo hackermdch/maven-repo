@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>mod-combiner</groupId>
+  <artifactId>mod-combiner.gradle.plugin</artifactId>
+  <versioning>
+    <lastUpdated>20241029074033</lastUpdated>
+    <snapshot>
+      <timestamp>20241029.074033</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.2-20241029.074033-1</value>
+        <updated>20241029074033</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>1.2-SNAPSHOT</version>
+</metadata>

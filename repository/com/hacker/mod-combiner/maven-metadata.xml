@@ -3,14 +3,16 @@
   <groupId>com.hacker</groupId>
   <artifactId>mod-combiner</artifactId>
   <versioning>
-    <latest>1.1-SNAPSHOT</latest>
-    <release>1.1.0</release>
+    <latest>1.2-SNAPSHOT</latest>
+    <release>1.2.0</release>
     <versions>
       <version>1.0.0</version>
       <version>1.0-SNAPSHOT</version>
       <version>1.1.0</version>
       <version>1.1-SNAPSHOT</version>
+      <version>1.2.0</version>
+      <version>1.2-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20240101045154</lastUpdated>
+    <lastUpdated>20241029074033</lastUpdated>
   </versioning>
 </metadata>
