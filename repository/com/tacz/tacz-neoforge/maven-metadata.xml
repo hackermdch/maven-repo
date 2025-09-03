@@ -3,11 +3,12 @@
   <groupId>com.tacz</groupId>
   <artifactId>tacz-neoforge</artifactId>
   <versioning>
-    <release>1.1.4-snapshot-0417</release>
+    <release>1.1.6-hotfix-r5-hm</release>
     <versions>
       <version>0329-005234</version>
       <version>1.1.4-snapshot-0417</version>
+	  <version>1.1.6-hotfix-r5-hm</version>
     </versions>
-    <lastUpdated>20250417065546</lastUpdated>
+    <lastUpdated>20250904004633</lastUpdated>
   </versioning>
 </metadata>
